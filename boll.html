@@ -1,0 +1,125 @@
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+.animation1{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	position:absolute;
+margin-left: 300px;
+top: 0px;
+	animation-name:square;
+	animation-duration:5s;
+	background-color: red;
+	animation-iteration-count: infinite;
+
+
+}
+@keyframes square {
+
+	0%{top: 0px;
+		left: 0px;
+		background-color: red;
+	   }
+
+	50%{top: 560px;
+		left: 0px;
+		background-color: green;
+	   }
+
+	100%{top: 0px;
+		left: 0px;
+		background-color: blue;
+	   }
+	   
+	   
+}
+
+.animation2{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	position: absolute;
+
+margin-left: 680px;
+top: 0px;
+	animation-name:mymove;
+	animation-duration:6s;
+	background-color: red;
+   animation-iteration-count: infinite;
+
+
+}
+@keyframes mymove {
+
+	0%{top: 0px;
+		left: 0px;
+		background-color: blue;
+	   }
+
+	50%{top: 510px;
+		left: 0px;
+		background-color: red;
+	   }
+	   100%{top: 0px;
+		left: 0px;
+		background-color: green;
+	   }
+	   
+
+	  
+
+}
+
+.animation3{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	position: absolute;
+margin-left: 1150px;
+top: 0px;
+	animation-name:square-1;
+	animation-duration:8s;
+	background-color: red;
+	animation-iteration-count: infinite;
+
+
+
+}
+@keyframes square-1 {
+
+	0%{top: 0px;
+		left: 0px;
+		background-color: green;
+	   }
+
+	40%{top: 460px;
+		left: 0px;
+		background-color: blue;
+	   }
+	   100%{top: 0px;
+		left: 0px;
+		background-color: red;
+	   }
+	   
+	  
+}
+
+
+</style>
+<body>
+	<div class="animation1">
+	</div>
+	<div class="animation2">
+	</div>
+	<div class="animation3">
+	</div>
+
+	<div style="height:10px;width:200px;background:black;margin-top:750px;float:left;margin-left:290px;"></div>
+	<div style="height:10px;width:300px;background:black;margin-top:750px;float:left;margin-left:150px;"></div>
+	<div style="height:10px;width:400px;background:black;margin-top:750px;float:left;margin-left:150px;"></div>
+
+</body>
+</html>
